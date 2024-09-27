@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  background-image: url('/public/img/background.svg') no-repeat center center fixed;
+  background-size: cover;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box {
+  display: flex;
+  width: 880px;
+  height: 486px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.login-form {
+  padding: 30px;
+  width: 50%;
+}
+.login-form h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #DFA128;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.login-form button:hover {
+  opacity: 0.9;
+}
+.login-image {
+  width: 50%;
+  background: #DFA128;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.login-image img {
+  height: 291px;
+  width: 228px;
+}
+.language-selector {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 2px;
+}
+.language-selector select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
